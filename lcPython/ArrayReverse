@@ -1,0 +1,16 @@
+class Solution:
+    def trainingPlan(self, actions: list[int]) -> list[int]:
+    # odd even
+        odd=[]
+        even=[]
+        for num in actions:
+            if num%2 != 0:
+                odd.append(num)
+            else:
+                even.append(num)
+        odd.extend(even)
+        return odd
+    
+solution=Solution()
+arr=[1,2,3,4,5]
+print(solution.trainingPlan(arr))
