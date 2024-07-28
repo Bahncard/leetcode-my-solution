@@ -23,9 +23,8 @@ class Solution {
         return null;
     }
 }
-/**
- * 1. The order of indices in the return array should match the problem statement,
- * (i.e., the first index should be the one stored in the hashmap and the second should be the current index)
- */
+//注意：不要忘掉另一个return，每个条件对应肯定都有return
+//HashMap别写错：用wrapper class， 而且形式是开头大写
+
 // @lc code=end
 
